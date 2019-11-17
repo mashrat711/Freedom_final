@@ -1,0 +1,595 @@
+﻿
+body{
+    font-family: 'Istok Web', sans-serif;
+}
+
+h3{
+    font-size: 40px;
+    color: #775ba3;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+/*Header starts*/
+
+.navbar-inverse{
+    background-color: #9b7ea4;
+    border-top: 3px solid #a997c5;
+    border-bottom: none;
+    opacity: 0.7;
+}
+
+.navbar{
+    border-radius: 0px;
+    min-height: 75px;
+}
+
+.navbar-brand{
+    padding: 0px 115px 0 0;
+}
+
+.navbar-nav{
+    margin-top: 12px;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{
+    border-bottom: 3px solid #f8e1b4;
+    padding-bottom: 22px;
+
+}
+/*Guidant Section Starts*/
+
+
+#guidant{
+    background-color: #ffffff;
+    padding: 110px 0;
+}
+
+#guidant p{
+    font-size: 23px;
+    color: #4b3f55;
+    font-weight: bold;
+    line-height: 1.6em;
+}
+
+/*Postérité Section Starts*/
+
+#postérité{
+    background-color: #fcfcfc;
+    padding: 80px 0;
+    border: 1px solid #91c5a9;
+}
+
+#postérité div p:first-child{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #4b3f55;
+    border-radius: 100%;
+    margin:0 auto 80px;
+}
+
+#postérité div i{
+    color: #4b3f55;
+    position: relative;
+    top: 20px;
+}
+
+#postérité figure{
+    position: relative;
+    right: 5px;
+    top: 60px;
+}
+
+
+#postérité div p:last-child{
+    font-size: 13px;
+    color: #4b3f55;
+    line-height: 1.7em;
+    font-weight: bold;
+}
+
+#postérité div p:last-child::first-letter{
+    font-size: 53px;
+    color: #91c5a9;
+    float: left;
+    margin-top: -25px;
+}
+
+/*Notre Equipe section start*/
+
+
+#equipe{
+    background-color: #ffffff;
+    padding: 112px 0;
+}
+
+.thumbnail{
+    border: none;
+}
+
+.thumbnail a > img, .thumbnail > img{
+    border-bottom: 3px solid #91c5a9;
+}
+
+#equipe h4{
+    font-size: 15px;
+    color: #91c5a9;
+    font-weight: bold;
+    border-bottom: 4px solid #91c5a9;
+    padding: 5px 0 14px 5px;
+}
+
+#equipe h4 > small{
+    font-size: 12px;
+    color: #91c5a9;
+    font-weight: bold;
+
+}
+
+.thumbnail .caption{
+    padding: 0;
+}
+
+#equipe .caption p:nth-child(2){
+    color: #4b3f55;
+    font-size: 13px;
+    margin: 20px 0 35px;
+}
+
+#equipe .btn{
+    border: none;
+    border-radius: 0;
+}
+
+#equipe .caption p:last-child > .btn-primary{
+    background-color: #3b5998;
+}
+
+#equipe .caption p:last-child > .btn-danger{
+    background-color: #d14333;
+}
+
+
+#equipe .caption p:last-child > .btn-warning{
+    background-color: #ea4c88;
+}
+
+#equipe .caption p:last-child > .btn-info{
+    background-color: #00aced;
+}
+
+#equipe .caption p:last-child > .btn-success{
+    background-color: #c70c0c;
+}
+
+
+/*Our Features Section Starts*/
+
+   
+/* Testimonial carousel */
+#testimonial{
+    background-color: #fcfcfc;
+    padding: 110px 0 100px;
+    border-bottom: 1px solid #91c5a9;
+}
+
+#testimonial .glyphicon-heart{
+    color: #ff1717;
+    top: 6px;
+    font-size: 38px;
+}
+
+#quote-carousel
+{
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+    background: none;
+    color: #222;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left img
+{
+    position: relative;
+    left: 212px;
+    bottom: 40px;
+
+}
+/* Next button  */
+#quote-carousel .carousel-control.right img
+{
+    position: relative;
+    left: 30px;
+    top: 130px;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators
+{
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li
+{
+   border: 3px solid #91c5a9;
+}
+#quote-carousel .carousel-indicators .active
+{
+    background-color: #91c5a9;
+}
+#quote-carousel blockquote img:first-child
+{
+    width: 168px;
+    height: 168px;
+    padding: 7px;
+    border: 4px solid #91c5a9;
+    margin-left: 50px;
+}
+
+#quote-carousel blockquote img:last-child{
+    position: relative;
+    right: 12px;
+    bottom: 23px;
+}
+
+/* End carousel */
+
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+.item blockquote .row > div:first-child{
+    padding-right: 0;
+}
+
+.item blockquote .row > div:last-child{
+    padding-left: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p{
+    color: #4b3f55;
+    font-size: 27px;
+    line-height: 1.8em;
+    margin-top: 20px;
+}
+
+.item blockquote small{
+    color: #7e63a8;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+/*Portfolio Section Starts*/
+
+* { box-sizing: border-box; }
+
+body {
+    font-family: sans-serif;
+}
+
+/* ---- button ---- */
+
+.button {
+    display: inline-block;
+    padding: 0.5em 1.0em;
+    background: #EEE;
+    border: none;
+    border-radius: 7px;
+    background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
+    color: #222;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-shadow: 0 1px white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #8CF;
+    text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+    color: #222;
+}
+
+.button:active,
+.button.is-checked {
+    background-color: #28F;
+}
+
+.button.is-checked {
+    color: white;
+    text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+}
+
+.button:active {
+    box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+/* ---- button-group ---- */
+
+.button-group {
+    margin-bottom: 20px;
+}
+
+.button-group:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.button-group .button {
+    float: left;
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 1px;
+}
+
+.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
+.button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
+
+/* ---- isotope ---- */
+
+.grid {
+    border: 1px solid #333;
+}
+
+/* clear fix */
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+   /* position: relative;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    padding: 10px;
+    background: #888;
+    color: #262524;*/
+}
+
+/*
+.element-item > * {
+    margin: 0;
+    padding: 0;
+}
+
+.element-item .name {
+    position: absolute;
+
+    left: 10px;
+    top: 60px;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.element-item .symbol {
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+}
+
+.element-item .number {
+    position: absolute;
+    right: 8px;
+    top: 5px;
+}
+
+.element-item .weight {
+    position: absolute;
+    left: 10px;
+    top: 76px;
+    font-size: 12px;
+}
+
+.element-item.alkali          { background: #F00; background: hsl(   0, 100%, 50%); }
+.element-item.alkaline-earth  { background: #F80; background: hsl(  36, 100%, 50%); }
+.element-item.lanthanoid      { background: #FF0; background: hsl(  72, 100%, 50%); }
+.element-item.actinoid        { background: #0F0; background: hsl( 108, 100%, 50%); }
+.element-item.transition      { background: #0F8; background: hsl( 144, 100%, 50%); }
+.element-item.post-transition { background: #0FF; background: hsl( 180, 100%, 50%); }
+.element-item.metalloid       { background: #08F; background: hsl( 216, 100%, 50%); }
+.element-item.diatomic        { background: #00F; background: hsl( 252, 100%, 50%); }
+.element-item.halogen         { background: #F0F; background: hsl( 288, 100%, 50%); }
+.element-item.noble-gas       { background: #F08; background: hsl( 324, 100%, 50%); }
+*/
+
+
+
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #quote-carousel
+    {
+        margin-bottom: 0;
+        padding: 0 40px 30px 40px;
+    }
+
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) {
+
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 2px;
+        width: 10px;
+        height: 10px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 2px;
+        width: 12px;
+        height: 12px;
+    }
+}
+
+
+
+
+
+
+/*Custom Responsive*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .navbar{
+        min-height: 53px;
+    }
+    .navbar-brand{
+        padding: 0;
+        height: 35px;
+    }
+
+    .navbar-brand > img{
+        height: 35px;
+    }
+    .navbar-inverse .navbar-toggle{
+        border-color: #ffffff;
+    }
+
+    .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+        background-color: #9b7ea4;
+    }
+
+    .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{
+        padding-bottom: 7px;
+        margin-right: 200px;
+
+    }
+
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+        border: none;
+    }
+
+    .carousel-indicators{
+        bottom: 0px;
+    }
+
+    #postérité div p:first-child{
+        margin: 50px auto 40px;
+    }
+
+    #ourFeatures {
+        padding: 60px 0 65px;
+    }
+
+    #ourFeatures h3{
+        font-size: 35px;
+        margin-bottom: 35px;
+    }
+
+    #ourFeatures h4{
+        font-size: 30px;
+    }
+
+    #ourFeatures h4 > p{
+        margin-bottom: 5px;
+    }
+
+    #testimonial{
+        padding: 65px 0 60px;
+    }
+
+    #testimonial h3{
+        font-size: 27px;
+    }
+
+    #testimonial .glyphicon-heart{
+        font-size: 28px;
+    }
+    #quote-carousel blockquote img:first-child{
+        margin-left: 20px;
+    }
+
+    .item blockquote p{
+        font-size: 20px;
+        line-height: 1.6em;
+    }
+    .item blockquote small{
+        font-size: 13px;
+    }
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar-brand {
+        padding: 0 35px 0 0;
+    }
+
+    .carousel-indicators{
+        bottom: 0px;
+    }
+
+    #postérité div p:first-child{
+        margin: 50px auto 40px;
+    }
+
+    #testimonial{
+        padding: 65px 0 60px;
+    }
+
+    #quote-carousel blockquote img:first-child{
+        margin-left: 185px;
+    }
+
+    .item blockquote p{
+        font-size: 22px;
+        line-height: 1.6em;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
